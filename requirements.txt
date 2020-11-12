@@ -1,0 +1,4 @@
+asyncio==3.4.3
+chess==1.2.2
+python-debian==0.1.32
+python-lichess==0.9
