@@ -9,7 +9,7 @@ import math
 import lichess.api
 from lichess.format import SINGLE_PGN
 
-lichess_username = 'bluehood'
+lichess_username = ''
 depth = 18
 
 # Takes a chessboard configuration and returns Stockfish analysis of the position.
