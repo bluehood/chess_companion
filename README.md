@@ -27,7 +27,7 @@ python3 main.py
 ```
 # Example Output:
 ```
-bluehood@ubuntu:~/Documents/programming/python/chess_analysis$ python3 main.py 
+bluehood@ubuntu:~/$ python3 main.py 
 1. e4          0.15      Good           Best Move was e2e4
 1. .. c5       0.28      Okay           Best Move was c7c5
 2. Nf3         0.1       Okay           Best Move was g1f3
