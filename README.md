@@ -5,29 +5,29 @@ The project is built in Python 3.9 - other version will likely not work. The pro
 
 Installation: 
 Clone this repository to you machine
-
+'''
 git clone https://github.com/bluehood/chess_companion.git
-
+'''
 You should then insall the requirements
-
+'''
 pip3 install -r requirements.txt
-
+'''
 If you decide to use the lichess.com feature you must code your username into main.py. This a variable on line 12. You can also specify the depth of analysis on line 13. 
 
 Ensure the stockfish engine executable is in the same directory as your download. 
 
-Usage:
+# Usage
 To analyse a game from a local pgn run
-
+'''
 python3 main.py ./path/to/file
-
+'''
 To analyse your most recent game from lichess.com run
-
+'''
 python3 main.py 
-
-Examples Output:
-
-odestorm@ubuntu:~/Documents/programming/python/chess_analysis$ python3 main.py 
+'''
+# Example Output:
+'''
+bluehood@ubuntu:~/Documents/programming/python/chess_analysis$ python3 main.py 
 1. e4          0.15      Good           Best Move was e2e4
 1. .. c5       0.28      Okay           Best Move was c7c5
 2. Nf3         0.1       Okay           Best Move was g1f3
@@ -76,6 +76,7 @@ Okay                18                  18
 Inaccuracy          13                  10
 Mistake             7                   4
 Blunder             2                   3
+'''
 
 Current Issues:
 + The Best Move function is not working. Even if you made the best move it will not be output by the program. This is due to a difference in notation between the Stockfish engine output and algebriac notation. Working to fix this. 
